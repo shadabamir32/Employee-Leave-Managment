@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 70px;
+  margin-right: 100px;
+  background: #f0f0f3;
+  font-family: "Josefin Sans", sans-serif;
+}
+.login-image {
+  width: 400px;
+  /* margin-left: 100px; */
+}
+.logo-image {
+  width: 200px;
+}
+.welcome-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+p {
+  background-color: #f3ec78;
+  background-image: linear-gradient(90deg, #2e75f4 -23.95%, #1e14ad 118.27%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.form-control::placeholder {
+  color: #818df1;
+}
+
+.form-control {
+  color: #1e14ad;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  box-shadow: inset 10px 10px 30px rgba(174, 174, 192, 0.4),
+    inset -10px -10px 40px #ffffff;
+  width: 300px;
+  height: 40px;
+}
+
+.btn-submit {
+  /* Gradient-blue */
+  color: #f0f0f3;
+  margin: 0;
+  background: linear-gradient(90deg, #2e75f4 -23.95%, #1e14ad 118.27%);
+  box-shadow: 10px 10px 30px #494bc2, -10px -10px 40px #bacbf3;
+  border-radius: 50px;
+  width: 300px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+  transform: scale(1.1);
+}
